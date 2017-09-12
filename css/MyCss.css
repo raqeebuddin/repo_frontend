@@ -1,0 +1,76 @@
+/* LUMIERE FICTIONAL WEBSITE CSS STYLE FILE START*/
+
+
+/* LUMIERE FICTIONAL WEBSITE CSS STYLE FILE END*/
+
+/* WEBSITE COLOUR SCHEME START*/
+
+/* WEBSITE COLOUR SCHEME END*/
+
+
+/* MOBILE DEFAULT STYLES - GLOBAL DESIGN START*/
+
+/*Prevent adjustmlent of font size after orientation chanige in IT onWindows phone and in IOS*/
+
+h1{
+    color: green;
+}
+/*
+html{
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+*/
+
+/*Apply a natuaral box model to all leelements*/
+/*
+* {
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*/
+
+/* MOBILE DEFAULT STYLES - GLOBAL DESIGN END*/
+
+/*MOBILE STYLES - 568PX SCREEN RESOLUTION START*/
+
+/*
+@media screen and (min-width :568px){
+    h1{
+        colour:red; 
+    }
+}
+*/
+/*MOBILE STYLES - 568PX SCREEN RESOLUTION END*/
+
+/*MOBILE STYLES - 768px SCREEN RESOLUTION START*/
+
+/*
+@media screen and (min-width: 768px){
+    h1{
+        colour:blue; 
+    }
+}
+*/
+/*MOBILE STYLES - 1024px SCREEN RESOLUTION END*/
+
+/*
+@media screen and (min-width: 1024px){
+    h1{
+        colour:green; 
+    }
+}
+*/
+/*MOBILE STYLES - 1280px SCREEN RESOLUTION END*//*MOBILE STYLES - 1024px SCREEN RESOLUTION END*/
+
+/*
+@media screen and (min-width: 1280px){
+    h1{
+        colour:yellow; 
+    }
+}
+*/
+/*MOBILE STYLES - 1280px SCREEN RESOLUTION END*/
+
+

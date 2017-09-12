@@ -1,0 +1,50 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: arial, sans-serif;
+}
+
+.flex-container {
+    /* 1. First make sure the flex-container does not have any css declarations */
+    /* 2. Use the display property and set it to flex */
+    /* 3. Then add a border property with solid 4px black - to demonstrate how it             behaves like a normal block element */
+    /* 4. Instead of creating a container that acts similar to other block element           containers, change the display value to inline-flex to make it act like an         inline block element */
+    
+    
+	/*display: flex;*/ 
+	display: inline-flex;
+	border:solid 4px #000;
+    
+    
+    /* Use this to demonstrate how we can float items without flexbox */
+   /* display: inline-block;*/
+    
+}
+
+.flex-item {
+	color: #fff;
+	font-size: 1.2em;
+	padding: 1em;
+	text-align: center;
+    
+    /* You must use float left to get the same effect as flexbox */
+    /*float: left;*/
+}
+
+.flex-item:first-child {
+	background-color: #A62E5C;
+}
+
+.flex-item:nth-child(2) {
+	background-color: #9BC850;
+}
+
+.flex-item:nth-child(3) {
+	background-color: #675BA7;
+}
+
+.flex-item strong {
+	display: block;
+	font-size: 130%;
+}	
